@@ -33,18 +33,6 @@ It is adapted from an experimental script and must be used only in controlled, a
 
 ---
 
-## Highlights & Safe Modes
-
-**Core idea:** produce wordlists that are safe to share publicly (randomized, non-personal). The default documentation below emphasizes a safe mode that **does not** accept victim information.
-
-Recommended safe features to implement/enable (if you are the repo maintainer):
-
-- `--lab-mode` (or `--safe-only`): prevents collection of personal/victim fields and disables functions that assemble victim-based lists. Default ON for public builds.
-- `--random-only`: produce only randomized strings from vetted character sets.
-- `--max-size`: hard cap on how many words can be generated in one run (e.g., default 100k) to avoid accidental generation of huge lists.
-- Logging of runs to a local file with a notice of authorized use (for audit).
-
----
 
 ## Installation
 
