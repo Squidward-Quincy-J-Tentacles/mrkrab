@@ -43,12 +43,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-`requirements.txt` should contain:
-
-```
-psutil
-```
-
 4. Run the tool:
 
 ```bash
